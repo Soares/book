@@ -1155,7 +1155,7 @@ with the defining equations
 \ind{\nat}(C,c_0,c_s,\suc(n)) &\defeq c_s(n,\ind{\nat}(C,c_0,c_s,n)).
 \end{align*}
 Here we finally see the connection to the classical notion of proof by induction.
-Recall that in type theory we represent propositions by types, and proving a proposition by inhabiting the corresponding type.
+Recall that in type theory we represent propositions by types, and prove a proposition by inhabiting the corresponding type.
 In particular, a \emph{property} of natural numbers is represented by a family of types $P:\nat\to\type$.
 From this point of view, the above induction principle says that if we can prove $P(0)$, and if for any $n$ we can prove $P(\suc(n))$ assuming $P(n)$, then we have $P(n)$ for all $n$.
 This is, of course, exactly the usual principle of proof by induction on natural numbers.
